@@ -1,0 +1,135 @@
+$dark:hsl(229, 23%, 23%);
+$cyan:hsl(185, 75%, 39%);
+$grayish:hsl(227, 10%, 46%);
+$gray:hsl(0, 0%, 59%);
+
+*{
+      user-select:none;
+      font-family: 'Kumbh Sans', sans-serif;
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+      font-size:18px;
+}
+
+body{
+      overflow:hidden;
+      background:$cyan;
+}
+
+#card{
+      position:relative;
+      border-radius:10px;
+      // position:relative;
+      background-color:white;
+      margin:10% auto;
+      // display:flex;
+      // justify-content:center;
+      height:425px;
+      width:375px;      
+      overflow:hidden;
+      box-shadow:0px 15px 50px 1px rgba(0, 0, 0, .2);
+}
+
+.info{
+      display:flex;
+      flex-direction:column;
+      h3{
+            // top:60px;
+            // position:relative;
+            padding-top:80px;
+            margin:0 auto;
+            text-align: center;
+            color:black;
+      }
+      b{
+            color:rgb(156, 156, 156);
+      }
+      h4{
+            // top:35px;
+            padding-top:15px;
+            padding-bottom:35px;
+            font-weight: 400;
+            // position:relative;
+            text-align:center;
+            margin:0 auto;
+            color:rgb(107, 107, 107);
+      }
+}
+
+hr{
+      height:1px;
+      border:none;
+      background-color: rgba(179, 179, 179, .5);
+}
+
+#stats{
+      height:100%;
+      // height:inherit;
+      display:flex;
+      justify-content: center;
+      text-align:center;
+      h2{
+            font-weight: 600;
+            font-size:23px;
+            margin:0 auto;
+      }
+      p{
+            font-size:12px;
+            color:$gray;
+            font-weight: 400;
+            padding-top:5px;
+      }
+}
+
+.property{
+      padding:30px;
+      height:inherit;
+      margin:0px auto;
+}
+
+
+
+
+#pattern-card{
+      width:auto;
+      height:150px;
+}
+
+#pattern-bottom{
+      min-width: 250px;
+      width:30%;
+      position:absolute;
+      bottom:-5%;
+      right:15%;
+      z-index:-5;
+}
+
+
+#pattern-top{
+      min-width: 300px;
+      width:30%;
+      position:absolute;
+      top:-5%;
+      left:15%;
+      z-index:-6;
+}
+
+#victor{
+      left: 0; 
+      right: 0;
+      margin-left: auto; 
+      margin-right: auto;
+      margin-top:100px;
+      position:absolute;
+      width:100px;
+      border-radius:50%;
+      z-index:2;
+      border-color:white;
+      border-style:solid;
+      border-width:5px;
+}
+
+.hidden{
+      display:none;
+}
