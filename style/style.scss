@@ -97,21 +97,21 @@ hr{
 }
 
 #pattern-bottom{
-      min-width: 250px;
-      width:30%;
+      min-width: 400px;
+      width:50%;
       position:absolute;
-      bottom:-5%;
-      right:15%;
+      top:400px;
+      right:10%;
       z-index:-5;
 }
 
 
 #pattern-top{
       min-width: 300px;
-      width:30%;
+      width:40%;
       position:absolute;
-      top:-5%;
-      left:15%;
+      top:-10%;
+      left:10%;
       z-index:-6;
 }
 
